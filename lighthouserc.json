@@ -1,0 +1,21 @@
+{
+    "ci": {
+        "collect": {
+            "numberOfRuns": 1,
+            "settings": {
+            }
+          },
+          "assert": {
+            "preset": "lighthouse:recommended",
+            "assertions": {
+              "offscreen-images": "off",
+              "uses-webp-images": "off"
+            }
+          },
+          "upload": {
+            "target": "lhci",
+            "serverBaseUrl": "http://ec2-3-134-98-31.us-east-2.compute.amazonaws.com:9001/app/projects",
+            "token": "baa15df3-c834-4fc1-bef7-a9b9dae6ba30"
+          }
+    }
+  }
