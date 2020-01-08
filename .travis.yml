@@ -7,4 +7,4 @@ before_install:
 script:
   - npm run build # build your site
 after_success:
-  - lhci autorun --upload.target=temporary-public-storage # run lighthouse CI against your static site
+  - lhci autorun --upload.target=lhci # run lighthouse CI against your static site
