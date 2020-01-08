@@ -12,6 +12,7 @@ function App() {
         </p>
         <input type="text"></input>
         <input type="text"></input>
+        <input type="text"></input>
         <a
           className="App-link"
           href="https://reactjs.org"
