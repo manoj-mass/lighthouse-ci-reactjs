@@ -6,7 +6,7 @@
             }
           },
           "assert": {
-            "preset": "lighthouse:no-pwa - lighthouse:recommended",
+            "preset": "lighthouse:no-pwa",
             "assertions": {
               "offscreen-images": "off",
               "uses-webp-images": "off"
